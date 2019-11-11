@@ -1,0 +1,22 @@
+.img-div{
+  height:100vh;
+}
+
+.content-div{
+  position: relative;
+  top: 12vh;
+}
+
+.h1{
+  font-size: 100px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .content-div{
+    top: 20vh;
+  }
+  .h1{
+    font-size: 60px;
+  }
+}

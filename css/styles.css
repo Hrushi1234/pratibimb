@@ -1,0 +1,632 @@
+@font-face {
+  font-family: "got";
+  src: url(got.ttf) format("truetype");
+}
+
+h1{
+  font-family: 'Sacramento',cursive;
+}
+
+p{
+  font-family: 'Poppins',sans-serif;
+
+}
+
+.intro-page-mobile{
+  display: none;
+}
+
+#hamburger{
+  top:40px;right:55px; color : white; font-size:30px;cursor:pointer; z-index:1000; position:fixed;
+}
+
+body{
+  margin:0;
+  font-family:"Nunito",sans-serif;
+  background-color:black;
+  overflow-x: hidden;
+}
+.overFlow{
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.background{
+    background-color:  black;
+    height: 100vh;
+}
+
+.prati-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 2s, fadeOut 1s 2s forwards;
+}
+
+.reveal {
+    background-color: #000;
+    width: 500%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fadeIn 2s,zoomOut 2s 2s forwards linear;
+}
+
+tr{
+    width: 100%;
+    padding: 0;
+}
+
+td{
+    width: 10%;
+    padding: 0;
+    display: inline-grid;
+
+}
+
+.grid-images{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    animation:fadeIn 2s, zoomOutImg 2s 2s forwards linear;
+}
+
+.prati-name{
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(45deg, #d1cecb,#b49872,#8c5249,#657da2,#d3965d);
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+#intro-collage{
+      width: 500%;
+      height: 400vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      animation: zoomoutCollage 2s 4s forwards linear;
+}
+
+#final-collage{
+      width: 500%;
+      height: 400vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      opacity: 0;
+      transform: translate(-50%,-50%);
+      animation: zoomoutfinalCollage 2s 4s forwards linear,fadeIn 2s 6s forwards;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+/* ABOUT US */
+.AboutUs{
+  position: relative;
+}
+
+#myVideo{
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+
+.about_us_throne{
+  left: 100px;
+  bottom: 0;
+  position: absolute;
+  width: 50%;
+}
+
+#about-us-title{
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+#about_us_content{
+  color: white;
+  margin: 0;
+width: 50%;
+font-size: 1.5em;
+float: right;
+line-height: 2em;
+}
+
+#throne{
+  width: 65%;
+}
+
+
+@keyframes zoomoutCollage {
+  to{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+}
+
+@keyframes zoomoutfinalCollage {
+  to{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+  }
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0.2;
+  }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes zoomOut{
+    to{
+        width: 100%;
+        visibility: hidden;
+    }
+}
+
+@keyframes zoomOutImg{
+    to{
+        height: 12.5vh;
+    }
+    from{
+        height: 50vh;
+    }
+}
+
+
+/* THEME */
+
+
+.Theme{
+  position: absolute;
+  font-family: serif;
+  padding: 8%;
+}
+
+.style-h1{
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+#theme-svggun{
+  height: 50vw;
+  width: 65%;
+  margin-top: 50px;
+}
+
+#theme-Previously{
+  margin-left: 10px;
+}
+
+#theme-guns{
+  fill: none;
+  stroke-width:40;
+  stroke-dasharray: 474502.6875;
+  stroke-dashoffset: 474502.6875;
+
+}
+
+#theme-prev{
+  font-size: 2em;
+
+}
+
+.reveal-gun{
+  animation: animation-guns 15s forwards;
+}
+
+@keyframes animation-guns {
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
+
+.sac{
+  stroke:white;
+  fill : none;
+  stroke-width:10;
+  stroke-dasharray: 1373;
+  stroke-dashoffset: 1373;
+}
+
+.fill{
+  animation: fill-sac 3s forwards;
+}
+
+@keyframes fill-sac{
+  100%{
+    fill : white;
+  }
+}
+
+#theme-now{
+  width:40%;
+}
+#theme-sac{
+  width:60%;
+}
+
+.theme-table-1{
+  height: 100vh;
+  width: 100%;
+}
+.theme-table-2{
+  width: 100%;
+}
+
+#theme-content{
+  color:white;
+  font-size: 1.5em;
+  margin: 10% 5% 5% 5%;
+
+}
+
+
+/* EVENTS */
+
+.Events{
+  color: white;
+  position: absolute;
+  height: 50vh;
+}
+
+.xyz{
+  position: relative;
+  height: 100%;
+  left: 10%;
+}
+
+#event-title{
+  margin:3% 8%;
+}
+
+.container {
+  /* background: red; */
+  /* height: 50%; */
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  width: 18%;
+  height: 100%;
+  margin-left: 20px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+
+.card-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: relative;
+  padding: 20px;
+  bottom: -100%;
+  transition: 0.5s;
+  background-color: linear-gradient(#000, #1c1c1c);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+.card:hover .card-img {
+  background: rgba(0, 0, 0, 0.5);
+  height: 60%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card:hover .overlay {
+  bottom: -55%;
+}
+
+
+/* STATS */
+.Stats{
+  color: white;
+  padding: 0 8%;
+  position: absolute;
+  width: 100%;
+}
+
+.Stats-content{
+/* width: %; */
+}
+
+.Stats-content p{
+  padding-right: 20%;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: right;
+}
+
+#stats-heading{
+  position: absolute;
+  top: 25%;
+font-size: 120px;
+}
+
+.heading{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  margin: 0;
+}
+
+
+
+
+@media screen and (max-width:720px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: block;
+  }
+  .heading{
+    font-size: 30px;
+
+  }
+  .Events{
+    height: 1400px;
+    width: 75%;
+  }
+  .card{
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+  }
+
+  .overlay{
+    font-size: 12px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: -0%;
+  padding: 10px;
+  }
+
+  .card:hover .card-img {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .card:hover .overlay {
+    bottom: -35%;
+  }
+
+  .Stats{
+    color: white;
+    position: relative;
+    width: 80%;
+    margin: 0;
+  }
+
+  #stats-heading{
+    position: relative;
+    font-size: 100px;
+  }
+
+  .Stats-content{
+    padding: 0 5% ;
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .Stats-content p{
+    text-align: left;
+  }
+
+/* fkfdkjdfb
+fdbd
+fbjdfb
+fb */
+
+
+.main{
+  display: none;
+}
+
+.prati-logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 2s, fadeOut 1s 2s forwards;
+}
+
+#hamburger{
+  top:10px;right:10px;}
+
+closebtn{
+  top:10px;right:10px;
+}
+
+.intro-poster{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 40vh;
+}
+
+.put-it-front{
+  z-index: 1;
+}
+
+
+#myVideoIntro{
+  object-fit: cover;
+  width: 100vw;
+  height: 40vh;
+  z-index: -1;
+}
+
+.intro-page-mobile{
+  display: block;
+}
+
+
+#myVideo{
+  object-fit: cover;
+  width: 100vw;
+  height: 75vh;
+  z-index: -1;
+}
+
+.about_us_throne{
+  width: 90%;
+  left: 0;
+}
+
+#throne{
+  height: 300px;
+}
+
+#about-us-title{
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+#about_us_content{
+  color: white;
+width: 100%;
+padding: 5%;
+font-size: 1em;
+line-height: 1.5em;
+}
+
+#about_us_content p{
+  margin-left: 40px;
+}
+
+#throne{
+  width: 65%;
+}
+
+
+/* THEME */
+
+
+.Theme{
+  padding: 8%;
+}
+
+.style-h1{
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.gun{
+  width: 250px;
+  height: 250px;
+}
+
+.sacred{
+  width: 200px;
+  height: 200px;
+}
+
+#theme-new{
+  font-size: 18px;
+}
+
+#theme-fsa{
+  font-size: 30px;
+}
+
+#theme-content{
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+}
+
+#theme-prev{
+  font-size: 18px;
+
+}
+
+#theme-dr{
+  font-size: 30px;
+
+}
+
+.theme-table-1{
+  height: auto;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.theme-table-2{
+  width: 100%;
+  margin-top: 75PX;
+  margin-bottom: 30px;
+}
+
+}

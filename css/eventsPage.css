@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.img-div{
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  /* background-image: url('../images/sherlock-holmes.jpg'); */
+  background-size: cover;
+  color: #fff;
+}
+
+.layer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.0),black);
+}
+
+.content-div{
+  position: relative;
+  width:40%;
+  left: 50%;
+  padding: 8% 5% 3% 5%;
+}
+
+.fr-grid{
+  margin: 0 auto;
+}
+
+.title-div{
+
+}
+
+.h1{
+  font-size: 60px;
+  margin: 0;
+  font-family: Sacramento;
+}
+
+.description-div{
+  margin: 5% 0;
+}
+
+.description-content{
+  font-size: 23px;
+}
+
+.prize-money-div{
+  display: inline-block;
+  margin: 2% 0;
+}
+
+.prize-money-title{
+  display: inline;
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.prize-money{
+  display: inline;
+  font-size: 30px;
+}
+
+.contact-div{
+  margin: 5% 0;
+}
+.contact-title{
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+}
+.numbers{
+}
+
+.no{
+  font-size: 20px;
+}
+
+.rules-div{
+  padding: 5% 10%;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.h2{
+  margin: 0;
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+}
+
+.coming-soon-div{
+  margin: 20px auto;
+  font-size: 30px;
+}
+
+.coming-soon{
+  /* margin: 50px auto; */
+  font-size: 30px;
+}
+
+.gallery{
+  padding: 3% 10%;
+  background: #111;
+  color: #fff;
+}
+
+.forward-arrow{
+  font-size: 50px;
+}
+
+.gallery-title{
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Sacramento', cursive;
+  color: #fff;
+}
+
+.gallery-content{
+  position: relative;
+  margin: 3% 0 3% 0;
+  width: 100%;
+  height: 600px;
+}
+
+.gallery-img-div{
+  position: relative;
+  width: 24.6%;
+  height: 300px;
+  float: left;
+  margin: 0.2%;
+}
+
+.full{
+  width: 49.5%;
+}
+
+.gallery-img{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.gallery-img-1{
+position: absolute;
+width: 100%;
+height: 48%;
+object-fit: cover;
+}
+
+.gallery-img-2{
+position: absolute;
+top: 50%;
+width: 100%;
+height: 50%;
+object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.more-images{
+  position: relative;
+  margin: 2% 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.greater-than{
+  font-size: 22px;
+}
+
+.more-images{
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 720px) {
+  #hamburger{
+    right: 20px;
+  }
+  .content-div{
+    left: 0;
+    width: 80%;
+  }
+  .h1{
+    font-size: 50px;
+  }
+
+  .description-content{
+    font-size: 20px;
+  }
+
+  .prize-money-div{
+    margin: 0;
+  }
+
+  .prize-money-title{
+    font-size: 20px;
+  }
+
+  .prize-money{
+    display: inline;
+    font-size: 20px;
+  }
+
+  .contact-div{
+    margin: 5% 0;
+  }
+  .contact-title{
+    font-size: 20px;
+  }
+  .no{
+    font-size: 18px;
+  }
+
+  .rules-div{
+    padding: 5%;
+  }
+
+  .h2{
+    font-size: 40px;
+  }
+
+  .coming-soon{
+    font-size: 25px;
+  }
+
+  .gallery-content{
+    height: 1250px;
+  }
+
+  .gallery{
+    padding: 3% 1%;
+  }
+  .forward-arrow{
+    font-size: 30px;
+  }
+
+  .gallery-title{
+    color: #fff;
+    margin-left: 5%;
+    font-size:  40px;
+  }
+
+  .gallery-img-div{
+    position: relative;
+    width: 48%;
+    height: 300px;
+  }
+
+  .full{
+    width: 100%;
+  }
+}

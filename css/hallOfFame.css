@@ -1,0 +1,331 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+h1{
+  margin: 0;
+}
+
+.main{
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  color: #fff;
+  /* background: #1c1c1c; */
+  background-image: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
+  text-align: center;
+}
+
+.layer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.text-div{
+  padding: 2%;
+}
+
+.title{
+  font-family: 'Sacramento', cursive;
+  /* text-shadow: 2px 2px 20px #f9a602; */
+  font-size: 100px;
+  font-weight: 500;
+  animation: appear 5s,  glow 2s 4s infinite;
+
+  margin-bottom: 50px;
+}
+
+.img-grid{
+  opacity: 0;
+  padding: 2% 10%;
+
+  animation: appearImgGrid 2s 2s forwards;
+}
+
+.card-div{
+  margin: 0 0 15px 0;
+
+}
+
+.image-div{
+  width: 100%;
+  /* min-width: 20vh;
+  max-width: 20vh; */
+    /* min-height: 125px;
+    max-height: 125px;
+    min-width: 50px; */
+  margin: auto;
+  border-radius: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  height: 20vh;
+  background-size: cover;
+}
+
+
+.a2{
+  background-image: url('https://m.media-amazon.com/images/M/MV5BODhlOTlhYmMtMTM3My00ZjJhLWJjMTMtNWUxZGQzNGFkMTFlXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg');
+}
+
+.a5{
+  background-image: url('https://m.media-amazon.com/images/M/MV5BY2JmODlhNTUtNWRkZi00NGUzLTg3NjItNGUzOGFiMWQyNjdjXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg');
+}
+
+.a3{
+  background-image: url('https://m.media-amazon.com/images/M/MV5BZWZhYzAyOGYtNGQyYS00NGU1LWJiNjEtMjNhYTg4ZjIzN2ZjXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg');
+}
+
+.a4{
+  background-image: url('https://m.media-amazon.com/images/M/MV5BMjEzNDgzYTAtMmUxNS00NDg1LTg3NDItNDMyODk5ZjJhYmQ4XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg');
+}
+
+
+.a6{
+  background-image: url('https://m.media-amazon.com/images/M/MV5BMmQxMWMzMDUtZDdmYy00YzAxLTg5OTAtOGI0MzhjYTM4YWQzXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SY1000_SX750_AL_.jpg');
+}
+
+.a1{
+  background-image: url('https://m.media-amazon.com/images/M/MV5BOGU5N2FkMTgtMjFjYy00OTkwLTk2ZWMtZTdjZmQ5MmFkYmUxXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SY500_CR0,0,373,500_AL_.jpg');
+}
+
+.a14{
+  background-image: url('https://pbs.twimg.com/profile_images/491144848460640256/s8T0tf9E_400x400.jpeg');
+}
+
+
+.a15{
+  background-image: url('https://pbs.twimg.com/profile_images/1095748496131383296/Z0vHOTsV_400x400.jpg');
+}
+
+.a23{
+  background-image: url('https://pbs.twimg.com/profile_images/750806904297779200/DPD1uXuQ_400x400.jpg');
+}
+
+.a10{
+  background-image: url('https://in.bmscdn.com/iedb/artist/images/website/poster/large/neha-kakkar-1050267-14-09-2017-01-20-07.jpg');
+}
+
+.a13{
+  background-image: url('https://bollyspice.com/wp-content/uploads/2019/04/remodsouza.jpg');
+}
+
+.a16{
+  background-image: url('https://img.etimg.com/thumb/msid-50433490,width-643,imgsize-262074,resizemode-4/havent-heard-good-things-about-dilwale-juhi-chawla.jpg');
+}
+
+.a11{
+  background-image: url('https://starsunfolded.com/wp-content/uploads/2019/06/Asees-Kaur-smiling.jpg');
+}
+
+.a22{
+  background-image: url('https://starsunfolded.com/wp-content/uploads/2017/01/Divya-Dutta-2.jpg');
+}
+
+.a26{
+  background-image: url('https://www.topnews.in/files/Sameer-Soni-1.jpg');
+}
+
+.a30{
+  background-image: url('https://i.pinimg.com/originals/13/65/5b/13655bf55273e8657da87d9c49893124.jpg');
+}
+
+.a17{
+  background-image: url('https://www.mkcl.org/user/pages/images/profile/anil-kakodkar.jpg');
+}
+
+.a18{
+  background-image: url('https://sindhutaisapakal.org/assets/img/sindhutai-sapkal.jpg');
+}
+
+.a20{
+  background-image: url('http://akamai.vidz.zeecdn.com/zeetalkies/news/main_images/s74055b77c84ec302.jpg');
+}
+
+.a28{
+  background-image: url('https://i.ytimg.com/vi/OmyTsZJxKO0/hqdefault.jpg');
+}
+
+.a27{
+  background-image: url('https://bookeventartist.com/wp-content/uploads/job-manager-uploads/gallery_images/2017/06/ABCD_Any_Body_Can_Dance_2_11.jpg');
+}
+
+.a7{
+  background-image: url('http://www.abraxasnu.com/wp-content/uploads/2015/10/MNS_1841.jpg?x53640');
+}
+
+.a9{
+  background-image: url('http://highlightsindia.com/wp-content/uploads/2018/08/image-2018-08-13.jpg');
+}
+
+.a24{
+  background-image: url('https://cdn.pinkvilla.com/files/styles/contentpreview/public/zayed%201.jpg?itok=4uCCiUr9');
+}
+
+
+.a25{
+  background-image: url('https://cdn.megamarathi.com/wp-content/uploads/2016/12/Sonalee-Kulkarni-Featured-2.jpg');
+}
+
+.a19{
+  background-image: url('https://timesofindia.indiatimes.com/thumb/msid-66752531,imgsize-31002,width-800,height-600,resizemode-4/66752531.jpg');
+}
+
+.a12{
+  background-image: url('https://i1.sndcdn.com/avatars-000335448404-5wwrtu-t500x500.jpg');
+}
+
+.a8{
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/619Rk2nXfJL.jpg');
+}
+
+.a29{
+  background-image: url('https://www.celebsfacts.com/wp-content/uploads/2017/09/Abigail-Jain.jpg');
+}
+
+.a21{
+  background-image: url('https://pbs.twimg.com/profile_images/1188826581227233286/ACzJHl1j_400x400.jpg');
+}
+
+
+
+/* .a1{
+  background-image: url('');
+} */
+
+
+
+.h8{
+  background-image: url('');
+}
+
+
+.inner-layer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  visibility: hidden;
+  border-radius: 100%;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img-div:hover{
+  /* border-radius: 100%; */
+  width: 25%;
+  border-radius: 10px;
+}
+
+.content-div{
+  margin: 10px 0 10px 0 ;
+}
+
+.name-title{
+  font-size: 25px;
+}
+
+.name{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 5%;
+  bottom:5%;
+  transition: 1s;
+  visibility: hidden;
+}
+
+.img-div:hover .inner-layer{
+  border-radius: 10px;
+  visibility: visible;
+}
+
+.img-div:hover .inner-layer .name{
+  /* border-radius: 10px; */
+
+  animation: nameAnimation 1s forwards;
+  visibility: visible;
+}
+
+
+#hamburger{
+  top:40px;right:55px; color : white; font-size:30px;cursor:pointer; z-index:1000; position:fixed;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes appearImgGrid {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes nameAnimation {
+  from{
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  30%,70%{
+    color: #fff;
+    filter: blur(0.5px);
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 5px #ff0, 0 0 50px #ff0;
+     /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 20px #fff, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #e60073; */
+  }
+  0%, 100%{
+    color: #fff;
+    filter: blur(0px);
+    /* text-shadow: 0 0 20px #fff, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 15px #ff0, 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #f9a602; */
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+.main{
+  overflow-x: hidden;
+}
+  #hamburger{
+    right: 20px;
+  }
+  .title{
+    margin-top: 20px;
+    /* margin-left: 40px; */
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+  }
+  .image-div{
+    width: 125px;
+    height: 125px;
+  }
+
+  .img-grid{
+    opacity: 0;
+    padding: 2% 10% 2% 10%;
+    animation: appearImgGrid 2s 2s forwards;
+  }
+}

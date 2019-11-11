@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+
+hr{
+  width: 80%;
+  color: #fff;
+  background-color: #fff;
+  margin: 4% auto;
+}
+
+.layer{
+    padding: 4% 10%;
+    padding-bottom: 2%;
+    background-image: linear-gradient(90deg,rgba(18, 194, 233, 0.5),rgba(196, 113, 237,1),rgba(246, 79, 89, 0.5));
+}
+
+h1{
+  margin: 0;
+}
+
+.content{
+  position: relative;
+  padding-bottom: 1%;
+}
+
+.title{
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-family: 'Sacramento', cursive;
+}
+
+.about-div{
+  width: 98%;
+}
+
+.about{
+  font-size: 25px;
+}
+
+.secretary{
+  color: #fff;
+}
+
+.list-of-secretary{
+  text-align: center;
+  padding: 0 10%;
+}
+
+.card-div{
+  padding: 10% 5%;
+}
+
+.img-div{
+  margin: 20px auto;
+  width: 140px;
+  height: 140px;
+  background-image: url('images/sherlock-holmes.jpg');
+  background-size: cover;
+  border-radius: 100%;
+}
+
+
+
+.post{
+  position: relative;
+  font-size: 20px;
+}
+
+.name{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.social-media{
+  padding: 5% 10%;
+}
+
+.icon{
+  padding: 0;
+  color: black;
+  height: 30px;
+}
+
+.developer{
+  color: #fff;
+}
+
+.list-of-developer{
+  text-align: center;
+  padding: 0 10%;
+}
+
+.dev-card-div{
+  padding: 10%  5%;
+}
+
+.bg-whiter{
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.sub-title{
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-size: 60px;
+}
+
+.align-middle{
+  text-align: center;
+}
+
+.padd{
+  padding: 2% 5%;
+}
+
+#hamburger{
+  top:40px;right:55px; color : white; font-size:30px;cursor:pointer; z-index:1000; position:fixed;
+}
+
+
+.s1{
+  background-image: url('../images/committee/vaibhav-davangeri.jpg');
+}
+
+.s2{
+  background-image: url('../images/committee/riya-shah.jpg');
+}
+
+.s3{
+  background-image: url('../images/committee/nikhil-lashkar.jpg');
+}
+
+/* .d1{
+  background-image: url('https://scontent.fbom3-2.fna.fbcdn.net/v/t1.0-9/45860725_2276990659208766_3446776517068062720_n.jpg?_nc_cat=103&_nc_oc=AQlItgSOxnf1BawOVbIftssiu93hquPFXp8kwRisrDc6uEqm1NrfS7Xemr8_H-bif__G4R9r4bG30x-qBrB7BPLI&_nc_ht=scontent.fbom3-2.fna&oh=316eaa45b4d0b603dc3d57b61c94ba89&oe=5E2437BE');
+} */
+
+.d1{
+  background-image: url('../images/committee/hrushikesh-kuklare.jpg');
+}
+
+.d2{
+  background-image: url('../images/committee/rishab-munot.jpg');
+}
+
+.t1{
+  background-image: url('../images/committee/vaibhav-tolia.jpg');
+}
+
+.t2{
+  background-image: url('../images/committee/apurva-malpure.jpg');
+}
+
+.mh1{
+  background-image: url('../images/committee/sarang-ghode.jpg');
+}
+
+.mh2{
+  background-image: url('../images/committee/aditya-gadhave.jpg');
+}
+
+.mo1{
+  background-image: url('../images/committee/pooja-patil.jpg');
+}
+
+.mo2{
+  background-image: url('../images/committee/mitali-wade.jpg');
+}
+
+.mo3{
+  background-image: url('../images/committee/sejal-jain.jpg');
+}
+
+.prh1{
+  background-image: url('../images/committee/anirudh-khatry.jpg');
+}
+
+.prh2{
+  background-image: url('../images/committee/samiksha-shastri.jpg');
+}
+
+.prh3{
+  background-image: url('../images/committee/saurabh-kulkarni.jpg');
+}
+
+.pro1{
+  background-image: url('../images/committee/aditi-joshi.jpg');
+}
+
+.pro2{
+  background-image: url('../images/committee/krishnakant-punpale.jpg');
+}
+
+.sph1{
+  background-image: url('../images/committee/prithvi-shetty.jpg');
+}
+
+.sph2{
+  background-image: url('../images/committee/shantanu-chaudhari.jpg');
+}
+
+.eh1{
+  background-image: url('../images/committee/nishit-salot.jpg');
+}
+
+.eh2{
+  background-image: url('../images/committee/shreyansh-chordia.jpg');
+}
+
+.eo1{
+  background-image: url('../images/committee/nikhil-gangurde.jpg');
+}
+
+.eo2{
+  background-image: url('../images/committee/ajinkya-kharate.jpg');
+}
+
+.eo3{
+  background-image: url('../images/committee/kunal-borade.jpg');
+}
+
+.eo4{
+  background-image: url('../images/committee/deepak-trivedi.jpg');
+}
+
+.eo5{
+  background-image: url('../images/committee/krishnakant-punpale.jpg');
+}
+
+.eo7{
+  background-image: url('../images/committee/sanket-bhole.jpg');
+}
+
+.eo8{
+  background-image: url('../images/committee/kunal-ghogare.jpg');
+}
+
+.pah1{
+  background-image: url('../images/committee/divya-darade.jpg');
+}
+
+.pah2{
+  background-image: url('../images/committee/mitesh-bhangare.jpg');
+}
+
+.pao1{
+  background-image: url('../images/committee/pranav-narayankhedkar.jpg');
+}
+
+.pao2{
+  background-image: url('../images/committee/shashank-gangurde.jpg');
+}
+
+.fah1{
+  background-image: url('../images/committee/vijay-kumbhar.jpg');
+}
+
+.fah2{
+  background-image: url('../images/committee/shubhangi-jadhav.jpg');
+}
+
+.desh1{
+  background-image: url('../images/committee/eshita-shukla.jpg');
+}
+
+.ccah1{
+  background-image: url('../images/committee/ritik-dubey.jpg');
+}
+
+.dlah1{
+  background-image: url('../images/committee/kunjal-shah.jpg');
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  #hamburger{
+    right: 20px;
+  }
+  .title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+
+  .name{
+    font-size: 20px;
+  }
+
+  .post{
+    font-size: 18px;
+  }
+
+  .icon{
+    height: 25px;
+  }
+
+  .social-media{
+    padding: 0 0 5%  0;
+  }
+  .img-div{
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-div{
+    padding: 5% ;
+  }
+
+
+  .about{
+    font-size: 22px;
+  }
+  hr{
+    width: 100%;
+  }
+
+  .bg-whiter{
+    padding: 2% 0;
+    border-radius: 15px;
+  }
+  .sub-title{
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-size: 40px;
+  }
+
+
+}

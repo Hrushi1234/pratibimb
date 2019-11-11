@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.img-div-1{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://mypostercollection.com/wp-content/uploads/2018/08/Game-Of-Thrones-Poster-MyPosterCollection.com-10-683x1024.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.img-div-2{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/aquaman .jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.img-div-3{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/sherlock-holmes .jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+
+.img-div-4{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/hero/Movies/2006/B000OW77UU_ThePursuitofHappyness_UXSY1._V144614414_SX1080_.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+
+.layer-1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg,rgba(0, 0, 0,0.0), black);
+}
+
+.layer-2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg,black, rgba(0, 0, 0,0.0) );
+}
+
+.btn-next{
+  position: absolute;
+  bottom: 10px;
+  font-size: 20px;
+  left: 50%;
+  transform: translateX(-10px);
+}
+
+.btn-prev{
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  left: 50%;
+  transform: translateX(-10px);
+}
+
+.events-list-div-1{
+  position: absolute;
+  right: 0;
+  top: 8%;
+  text-align: right;
+  padding: 8% 5%;
+}
+
+.events-list-div-2{
+  position: absolute;
+  padding: 6% 5%;
+}
+
+.title{
+  font-size: 70px;
+  font-weight: 600;
+  font-family: 'Sacramento', cursive;
+  margin: 0;
+  animation: appearFromLeft 1s;
+}
+
+.list-of-events{
+  /* color: #147efb */
+  padding:  5% 0;
+}
+
+span{
+  font-size: 25px;
+}
+a{
+  display: inline;
+
+  color: #fff;
+  text-decoration: none;
+}
+.updiv{
+    position: relative;
+    display: inline-block;
+    margin: 2% 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.i{
+  width: 45%;
+  color: #eeeeee;
+  font-size: 60px;
+  opacity: 0.5;
+  animation:
+}
+
+.next{
+
+  animation: nextIcon 1s;
+  animation-iteration-count: infinite;
+}
+
+.prev{
+  transform: rotate(-90deg);
+  animation: prevIcon 1s;
+  animation-iteration-count: infinite;
+}
+
+.event-name{
+  font-size: 28px;
+  /* font-size: 2rem; */
+  margin: 5px 0%;
+  visibility: hidden;
+}
+
+.ani-1{
+  animation: appear 0.2s 0.4s forwards;
+}
+
+.ani-2{
+  animation: appear 0.2s 0.8s forwards;
+}
+
+.ani-3{
+  animation: appear 0.2s 1.1s forwards;
+}
+
+.ani-4{
+  animation: appear 0.2s 1.4s forwards;
+}
+
+.ani-5{
+  animation: appear 0.2s 1.7s forwards;
+}
+
+.ani-6{
+  animation: appear 0.2s 2.1s forwards;
+}
+
+.ani-7{
+  animation: appear 0.2s 2.4s forwards;
+}
+
+.ani-8{
+  animation: appear 0.2s 2.7s forwards;
+}
+
+.underline{
+  position: absolute;
+  left: 5%;
+  display: inline-block;
+  height: 1.5px;
+  background-color: #fff;
+}
+
+a:hover .underline{
+animation: underlinee 1s forwards;
+}
+
+#hamburger{
+  top:40px;right:55px; color : white; font-size:30px;cursor:pointer; z-index:1000; position:fixed;
+}
+
+
+@keyframes underlinee {
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes appear {
+  from{
+    transform: translateY(20px);
+  }
+  to{
+    transform: translateX(0px);
+    visibility: visible;
+  }
+}
+
+@keyframes nextIcon {
+  from{
+    transform: translateY(-20px) rotate(90deg);
+    /* transform: rotate(90deg); */
+  }
+  to{
+    transform: translateX(0px) rotate(90deg);
+    /* transform: rotate(90deg); */
+    /* visibility: visible; */
+  }
+}
+
+@keyframes prevIcon {
+  from{
+    transform: translateY(20px) rotate(-90deg);
+      /* transform: rotate(-90deg); */
+  }
+  to{
+    transform: translateY(0px) rotate(-90deg);
+      /* transform: rotate(-90deg); */
+    /* visibility: visible; */
+  }
+}
+
+@keyframes appearFromLeft {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .events-list-div-1{
+    top: 25%;
+  }
+  .events-list-div-2{
+    top: 10%;
+  }
+
+  .title{
+    font-size: 50px;
+  }
+
+  .event-name{
+    font-size: 25px;
+  }
+  #hamburger{
+    right: 20px;
+  }
+
+}
