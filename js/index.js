@@ -8,7 +8,7 @@ var divTheme = $(".Theme")
 var divStats = $(".Stats")
 var divEvents = $(".Events")
 var themeContent = $("#theme-content")
-$('#throne' ).ready(function() { console.log( "ready!" ); });
+$(window).on("load", function() { console.log("Hey guyssss") });
 
 var isPhone = false
 
