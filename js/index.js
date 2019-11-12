@@ -62,7 +62,7 @@ if(!isPhone){
 
 $(window).on("load",function () {
   if(!isPhone){
-
+    document.getElementById("logo").classList.remove('hide')
     document.getElementById("loading-div").classList.add('hide')
     document.getElementById("logo").classList.add('prati-logo-start')
     document.getElementById("table-images").classList.add('reveal-animation')
@@ -147,4 +147,3 @@ else{
 function showPoster() {
   $('#poster').addClass('put-it-front');
 }
-

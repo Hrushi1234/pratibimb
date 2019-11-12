@@ -22,7 +22,7 @@
 
 .prati-loading-logo{
   margin-bottom: 50px;
-  animation: fadeIn 2s infinite, fadeOut 1s 2s infinite;
+  /* animation: fadeIn 2s infinite, fadeOut 1s 2s infinite; */
 }
 
 h1{
