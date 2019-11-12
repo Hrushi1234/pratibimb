@@ -1,6 +1,15 @@
-@font-face {
-  font-family: "got";
-  src: url(got.ttf) format("truetype");
+
+
+.loading-div{
+  postion: absolute;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+} 
+
+.loading-text{
+  color: #FDEE3C;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1{
