@@ -59,6 +59,15 @@ a:hover{
     animation: fadeIn 2s, fadeOut 1s 2s forwards;
 }
 
+
+.prati-logo-blink{
+  animation: fadeIn 2s, fadeOut 1s 2s infinite;
+}
+
+.prati-logo-start{
+  animation: fadeIn 2s, fadeOut 1s 2s forwards;
+}
+
 .reveal {
     background-color: #000;
     width: 500%;
@@ -68,6 +77,11 @@ a:hover{
     left: 50%;
     transform: translate(-50%,-50%);
     animation: fadeIn 2s,zoomOut 2s 2s forwards linear;
+}
+
+
+.reveal-animation{
+  animation: fadeIn 2s,zoomOut 2s 2s forwards linear;
 }
 
 tr{
@@ -89,6 +103,9 @@ td{
     animation:fadeIn 2s, zoomOutImg 2s 2s forwards linear;
 }
 
+.grid-images-animation{
+animation:fadeIn 2s, zoomOutImg 2s 2s forwards linear;}
+
 .prati-name{
   position: relative;
   z-index: 1;
@@ -108,6 +125,9 @@ td{
       animation: zoomoutCollage 2s 4s forwards linear;
 }
 
+.intro-collage-animation{
+animation: zoomoutCollage 2s 4s forwards linear;}
+
 #final-collage{
       width: 500%;
       height: 400vh;
@@ -117,6 +137,10 @@ td{
       opacity: 0;
       transform: translate(-50%,-50%);
       animation: zoomoutfinalCollage 2s 4s forwards linear,fadeIn 2s 6s forwards;
+}
+
+.final-collage-animation{
+  animation: zoomoutfinalCollage 2s 4s forwards linear,fadeIn 2s 6s forwards;
 }
 
 .hide{
