@@ -60,7 +60,7 @@ a:hover{
 
 
 .prati-logo-blink{
-  animation: fadeIn 2s, fadeOut 1s 2s infinite;
+  animation: fadeIn 2s, fadeOutBlink 1s 2s infinite;
 }
 
 .prati-logo-start{
@@ -185,6 +185,17 @@ line-height: 2em;
 #throne{
   width: 65%;
 }
+
+
+@keyframes fadeOutBlink{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+    }
+}
+
 
 
 @keyframes zoomoutCollage {
