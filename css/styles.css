@@ -516,7 +516,7 @@ fbjdfb
 fb */
 
 
-.main{
+#intro-page{
   display: none;
 }
 
@@ -527,7 +527,6 @@ fb */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeIn 2s, fadeOut 1s 2s forwards;
 }
 
 #hamburger{
