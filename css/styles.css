@@ -1,16 +1,3 @@
-@font-face {
-  font-family: "got";
-  src: url(got.ttf) format("truetype");
-}
-
-h1{
-  font-family: 'Sacramento',cursive;
-}
-
-p{
-  font-family: 'Poppins',sans-serif;
-
-}
 
 
 #loading-div{
@@ -37,6 +24,15 @@ p{
 .prati-loading-logo{
   margin-bottom: 50px;
   animation: fadeIn 2s infinite, fadeOut 1s 2s infinite;
+}
+
+h1{
+  font-family: 'Sacramento',cursive;
+}
+
+p{
+  font-family: 'Poppins',sans-serif;
+
 }
 
 .intro-page-mobile{
@@ -83,7 +79,15 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeIn 2s, fadeOut 1s 2s forwards;
+}
+
+
+.prati-logo-blink{
+  animation: fadeIn 2s, fadeOutBlink 1s 2s infinite;
+}
+
+.prati-logo-start{
+  animation: fadeIn 2s, fadeOut 1s 2s forwards;
 }
 
 .reveal {
@@ -94,7 +98,11 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: fadeIn 2s,zoomOut 2s 2s forwards linear;
+}
+
+
+.reveal-animation{
+  animation: fadeIn 2s,zoomOut 2s 2s forwards linear;
 }
 
 tr{
@@ -113,8 +121,10 @@ td{
     width: 100%;
     height: 50vh;
     object-fit: cover;
-    animation:fadeIn 2s, zoomOutImg 2s 2s forwards linear;
 }
+
+.grid-images-animation{
+animation:fadeIn 2s, zoomOutImg 2s 2s forwards linear;}
 
 .prati-name{
   position: relative;
@@ -132,8 +142,10 @@ td{
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
-      animation: zoomoutCollage 2s 4s forwards linear;
 }
+
+.intro-collage-animation{
+animation: zoomoutCollage 2s 4s forwards linear;}
 
 #final-collage{
       width: 500%;
@@ -143,7 +155,10 @@ td{
       left: 50%;
       opacity: 0;
       transform: translate(-50%,-50%);
-      animation: zoomoutfinalCollage 2s 4s forwards linear,fadeIn 2s 6s forwards;
+}
+
+.final-collage-animation{
+  animation: zoomoutfinalCollage 2s 4s forwards linear,fadeIn 2s 6s forwards;
 }
 
 .hide{
@@ -193,6 +208,17 @@ line-height: 2em;
 #throne{
   width: 65%;
 }
+
+
+@keyframes fadeOutBlink{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+    }
+}
+
 
 
 @keyframes zoomoutCollage {
@@ -524,7 +550,6 @@ fb */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeIn 2s, fadeOut 1s 2s forwards;
 }
 
 #hamburger{
@@ -657,3 +682,7 @@ line-height: 1.5em;
 }
 
 }
+
+
+
+/* adsdasdasdsad */

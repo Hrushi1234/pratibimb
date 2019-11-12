@@ -8,6 +8,7 @@ var divTheme = $(".Theme")
 var divStats = $(".Stats")
 var divEvents = $(".Events")
 var themeContent = $("#theme-content")
+$(window).on("load", function() { console.log("Hey guyssss") });
 
 var isPhone = false
 
@@ -58,14 +59,27 @@ if(!isPhone){
    document.getElementById('abc').classList.remove('overFlow')
   }
 
-if(!isPhone){
 
-  setTimeout(show, 2500);
-  setTimeout(aa, 10500);
+$(window).on("load",function () {
+  if(!isPhone){
 
-}else{
-  aa()
-}
+    document.getElementById("loading-div").classList.add('hide')
+    document.getElementById("logo").classList.add('prati-logo-start')
+    document.getElementById("table-images").classList.add('reveal-animation')
+    for(var q = 0;q<80;q++)
+    document.getElementsByClassName("grid-images")[q].classList.add('grid-images-animation')
+
+    document.getElementById("intro-collage").classList.add('intro-collage-animation')
+    document.getElementById("final-collage").classList.add('final-collage-animation')
+    setTimeout(show, 2500);
+    setTimeout(aa, 10500);
+
+  }else{
+    aa();
+    document.getElementById("loading-div").classList.add('hide')
+    document.getElementById("logo").classList.add('prati-logo-start')
+  }
+})
 
 $(window).on('scroll',function(){
 
@@ -133,3 +147,4 @@ else{
 function showPoster() {
   $('#poster').addClass('put-it-front');
 }
+
