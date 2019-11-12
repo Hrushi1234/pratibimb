@@ -147,3 +147,4 @@ else{
 function showPoster() {
   $('#poster').addClass('put-it-front');
 }
+
