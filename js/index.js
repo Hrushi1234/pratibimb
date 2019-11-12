@@ -63,7 +63,7 @@ if(!isPhone){
 $(window).on("load",function () {
   if(!isPhone){
 
-    document.getElementById("logo").classList.remove('prati-logo-blink')
+    document.getElementById("loading-div").classList.add('hide')
     document.getElementById("logo").classList.add('prati-logo-start')
     document.getElementById("table-images").classList.add('reveal-animation')
     for(var q = 0;q<80;q++)
@@ -76,7 +76,7 @@ $(window).on("load",function () {
 
   }else{
     aa();
-    document.getElementById("logo").classList.remove('prati-logo-blink')
+    document.getElementById("loading-div").classList.add('hide')
     document.getElementById("logo").classList.add('prati-logo-start')
   }
 })
