@@ -3,6 +3,7 @@ var width = screen.width;
 var height = $("#myVideo").height();
 var about_us_content = $('#about_us_content')
 var myVideo = $('#myVideo')
+var myVideoIntro = $('#myVideoIntro')
 var about_us_throne = $('.about_us_throne')
 var divTheme = $(".Theme")
 var divStats = $(".Stats")
@@ -56,17 +57,15 @@ if(!isPhone){
   }
 
   function aa() {
-    var myVideoIntro = document.getElementById('myVideoIntro').play();
-
-    // myVideoIntro.play();
+  // myVideoIntro.play();
    document.getElementById('abc').classList.remove('overFlow')
   }
 
 
 $(window).on("load",function () {
   if(!isPhone){
-    document.getElementById("aboutQw").classList.remove('hide')
     document.getElementById("mainQw").classList.remove('hide')
+    document.getElementById("aboutQw").classList.remove('hide')
     document.getElementById("logo").classList.remove('hide')
     document.getElementById("loading-div").classList.add('hide')
     document.getElementById("logo").classList.add('prati-logo-start')

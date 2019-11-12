@@ -1,6 +1,7 @@
 
 
 #loading-div{
+  z-index: 1000;
   position: absolute;
   background: #000;
   width: 100%;
