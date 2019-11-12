@@ -63,6 +63,8 @@ if(!isPhone){
 
 $(window).on("load",function () {
   if(!isPhone){
+    document.getElementById("aboutQw").classList.remove('hide')
+    document.getElementById("mainQw").classList.remove('hide')
     document.getElementById("logo").classList.remove('hide')
     document.getElementById("loading-div").classList.add('hide')
     document.getElementById("logo").classList.add('prati-logo-start')
@@ -77,6 +79,8 @@ $(window).on("load",function () {
 
   }else{
     aa();
+    document.getElementById("aboutQw").classList.remove('hide')
+    document.getElementById("mainQw").classList.remove('hide')    
     document.getElementById("loading-div").classList.add('hide')
     myVideoIntro.play();
   }
