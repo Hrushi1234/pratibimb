@@ -3,6 +3,7 @@ var width = screen.width;
 var height = $("#myVideo").height();
 var about_us_content = $('#about_us_content')
 var myVideo = $('#myVideo')
+var myVideoIntro = $('#myVideoIntro')
 var about_us_throne = $('.about_us_throne')
 var divTheme = $(".Theme")
 var divStats = $(".Stats")
@@ -77,7 +78,7 @@ $(window).on("load",function () {
   }else{
     aa();
     document.getElementById("loading-div").classList.add('hide')
-    document.getElementById("logo").classList.add('prati-logo-start')
+    myVideoIntro.play();
   }
 })
 
