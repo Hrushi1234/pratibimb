@@ -12,6 +12,33 @@ p{
 
 }
 
+
+#loading-div{
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+}
+
+.loading-text{
+  color: #F6E43A;
+  font-family: 'Sacramento',cursive;
+  line-height: 80px;
+  font-size: 50px;
+}
+
+.center-it{
+  position: relative;
+  top: 20%;
+}
+
+.prati-loading-logo{
+  margin-bottom: 50px;
+  animation: fadeIn 2s infinite, fadeOut 1s 2s infinite;
+}
+
 .intro-page-mobile{
   display: none;
 }
