@@ -3,7 +3,6 @@ var width = screen.width;
 var height = $("#myVideo").height();
 var about_us_content = $('#about_us_content')
 var myVideo = $('#myVideo')
-var myVideoIntro = $('#myVideoIntro')
 var about_us_throne = $('.about_us_throne')
 var divTheme = $(".Theme")
 var divStats = $(".Stats")
@@ -57,7 +56,7 @@ if(!isPhone){
   }
 
   function aa() {
-  // myVideoIntro.play();
+    document.getElementById('myVideoIntro').play();
    document.getElementById('abc').classList.remove('overFlow')
   }
 
