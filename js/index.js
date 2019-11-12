@@ -56,7 +56,7 @@ if(!isPhone){
   }
 
   function aa() {
-    document.getElementById('myVideoIntro').play();
+    document.getElementById('myVideoIntro').play()
    document.getElementById('abc').classList.remove('overFlow')
   }
 
