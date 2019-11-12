@@ -75,7 +75,9 @@ $(window).on("load",function () {
     setTimeout(aa, 10500);
 
   }else{
-    aa()
+    aa();
+    document.getElementById("logo").classList.remove('prati-logo-blink')
+    document.getElementById("logo").classList.add('prati-logo-start')
   }
 })
 
