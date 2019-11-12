@@ -6,7 +6,6 @@
   width: 100%;
   height: 100vh;
   text-align: center;
-
 }
 
 .loading-text{
@@ -680,6 +679,21 @@ line-height: 1.5em;
   margin-top: 75PX;
   margin-bottom: 30px;
 }
+
+.center-it{
+  top: 30%;
+}
+
+.prati-loading-logo{
+  width: 100px;
+  height: 100px;
+}
+
+.loading-text{
+  line-height: 50px;
+  font-size: 20px;
+}
+
 
 }
 
