@@ -277,6 +277,23 @@ h1{
 }
 
 
+.ich1{
+  background-image: url('../images/committee/bharat-shetty.jpg');
+}
+
+.ich2{
+  background-image: url('../images/committee/ojasvi-pandya.jpg');
+}
+
+.ich3{
+  background-image: url('../images/committee/swapneel-paranjape.jpg');
+}
+
+.ich4{
+  background-image: url('../images/committee/himashree-keluskar.jpg');
+}
+
+
 
 
 @media screen and (max-width: 720px) {
