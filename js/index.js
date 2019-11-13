@@ -56,7 +56,6 @@ if(!isPhone){
   }
 
   function aa() {
-    document.getElementById('myVideoIntro').play()
    document.getElementById('abc').classList.remove('overFlow')
   }
 
@@ -79,6 +78,7 @@ $(window).on("load",function () {
 
   }else{
     aa();
+    document.getElementById('myVideoIntro').play();
     document.getElementById("aboutQw").classList.remove('hide')
     document.getElementById("mainQw").classList.remove('hide')
     document.getElementById("loading-div").classList.add('hide')
