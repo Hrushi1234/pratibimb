@@ -97,6 +97,11 @@ body {
   font-size: 30px;
 }
 
+.g-forms{
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
 .coming-soon{
   /* margin: 50px auto; */
   font-size: 30px;
@@ -254,6 +259,7 @@ a{
     width: 48%;
     height: 300px;
   }
+
 
   .full{
     width: 100%;
