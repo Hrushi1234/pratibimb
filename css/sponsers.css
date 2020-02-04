@@ -1,561 +1,649 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
 
-  h1{
-    margin: 0;
-  }
+h1 {
+  margin: 0;
+}
 
-  .main{
-    position: relative;
-    width: 100%;
-    color: #fff;
-    background-image: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
-    text-align: center;
-  }
+.main {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background-image: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
+  text-align: center;
+}
 
-  .layer{
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+.layer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
-  .text-div{
-    padding: 2%;
-  }
+.text-div {
+  padding: 2%;
+}
 
-  .title{
-    font-family: 'Sacramento', cursive;
-    font-size: 100px;
-    font-weight: 500;
-    animation: appear 5s,  glow 2s 4s infinite;
-    margin-bottom: 50px;
-  }
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  font-weight: 500;
+  animation: appear 5s, glow 2s 4s infinite;
+  margin-bottom: 50px;
+}
 
-  .sub-title{
-    font-family: 'Sacramento', cursive;
-    font-size: 80px;
-    font-weight: 500;
-    animation: appear 7s;
-    margin-bottom: 50px;
-  }
+.sub-title {
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  font-weight: 500;
+  animation: appear 7s;
+  margin-bottom: 50px;
+}
 
-  .img-grid{
-    opacity: 0;
-    margin: 0;
-    width: 100%;
-    padding: 2% 10%;
-    animation: appearImgGrid 2s 2s forwards;
-  }
+.img-grid {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  padding: 2% 10%;
+  animation: appearImgGrid 2s 2s forwards;
+}
 
-  .card-div{
-    margin: 0 0 15px 0;
-  }
+.card-div {
+  margin: 0 0 15px 0;
+}
 
-  a{
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-  }
+a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
 
-  a:hover{
-      color: #fff;
-      text-decoration: none;
-  }
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 
-  .image-div{
-    width: 100%;
-    max-width: 20vh;
-    min-width: 20vh;
-    /* margin: auto;   */
-    border-radius: 10px;
-    background-color: #fff;
-    height: 20vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-
-  .n1{
-    background-image: url('https://apkdl.in/apkimage/uAGuxZ872xYq99O9O1IgYEceMWAheQyEwZskZ9sE6Xrt1A-WinZkHj3MDAcTcJVLATFP');
-  }
-
-  .n2{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68HZXSlAWjU2--Cx9hk0gKggDesVJ-s75t35klbmZ3HGhNBWL&s');
-  }
-
-  .n3{
-    background-image: url('https://media.licdn.com/dms/image/C510BAQHxOL2mT9Mmaw/company-logo_200_200/0?e=2159024400&v=beta&t=VHaUC73pHS2JWgS1-fAikRmYgylL2wq48fR-yKM63A4');
-  }
-
-  .n6{
-    background-image: url('https://careersquare.in/wp-content/uploads/2018/08/zebronics-logo-cs.jpg');
-  }
-
-  .n5{
-    background-color: #fff;
-    background-image: url('https://carlisletheacarlisletheatre.org/images/tinder-logo-square-7.jpg');
-  }
-
-  .n7{
-    background-image: url('https://media.licdn.com/dms/image/C510BAQFPoN6dNCPWDw/company-logo_200_200/0?e=2159024400&v=beta&t=5qKYLJTmKF0DQVhjwDxiiVVi_jUYD5i_dVXMaGz9pGE');
-  }
-
-  .n8{
-    background-image: url('https://pngimage.net/wp-content/uploads/2018/06/olivia-png.png');
-  }
-
-  .n4{
-    background-image: url('https://www.capitalpride.org/wp-content/uploads/Monster_Energy_logo_square-1.png');
-  }
-
-  .n9{
-    background-image: url('https://www.onspon.com/brandimages/ATKT.in.jpg');
-  }
-
-  .n10{
-    background-image: url('https://maharashtratimes.indiatimes.com/photo/71520572.cms');
-  }
-
-.n11{
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNoVZ98rMmCIfH_OngvEik_ZhVR8e-tifJB1px5dTZ6L4TqXu4&s');
+.image-div {
+  width: 100%;
+  max-width: 20vh;
+  min-width: 20vh;
+  /* margin: auto;   */
+  border-radius: 10px;
+  background-color: #fff;
+  height: 20vh;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
-  .a53{
-    background-image: url('https://dhoom.filmipop.com/media//theatrelogo/2018/Jun/1528176172-gold.jpg');
-  }
+.n1 {
+  background-image: url('https://apkdl.in/apkimage/uAGuxZ872xYq99O9O1IgYEceMWAheQyEwZskZ9sE6Xrt1A-WinZkHj3MDAcTcJVLATFP');
+}
 
-  .a5{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUk2qm32YF0jrcM6-gKe8Sy8peUBCVDwGCXqwbNQiI0sEG6jp9&s');
-  }
+.n2 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68HZXSlAWjU2--Cx9hk0gKggDesVJ-s75t35klbmZ3HGhNBWL&s');
+}
+
+.n3 {
+  background-image: url('https://media.licdn.com/dms/image/C510BAQHxOL2mT9Mmaw/company-logo_200_200/0?e=2159024400&v=beta&t=VHaUC73pHS2JWgS1-fAikRmYgylL2wq48fR-yKM63A4');
+}
+
+.n6 {
+  background-image: url('https://careersquare.in/wp-content/uploads/2018/08/zebronics-logo-cs.jpg');
+}
+
+.n5 {
+  background-color: #fff;
+  background-image: url('https://carlisletheacarlisletheatre.org/images/tinder-logo-square-7.jpg');
+}
+
+.n7 {
+  background-image: url('https://media.licdn.com/dms/image/C510BAQFPoN6dNCPWDw/company-logo_200_200/0?e=2159024400&v=beta&t=5qKYLJTmKF0DQVhjwDxiiVVi_jUYD5i_dVXMaGz9pGE');
+}
+
+.n8 {
+  background-image: url('https://pngimage.net/wp-content/uploads/2018/06/olivia-png.png');
+}
+
+.n4 {
+  background-image: url('https://www.capitalpride.org/wp-content/uploads/Monster_Energy_logo_square-1.png');
+}
+
+.n9 {
+  background-image: url('https://www.onspon.com/brandimages/ATKT.in.jpg');
+}
+
+.n10 {
+  background-image: url('https://maharashtratimes.indiatimes.com/photo/71520572.cms');
+}
+
+.n11 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNoVZ98rMmCIfH_OngvEik_ZhVR8e-tifJB1px5dTZ6L4TqXu4&s');
+}
+
+.n12 {
+  background-image: url('https://images.yourstory.com/cs/wordpress/2017/10/PokerBaazi-New-Logo.png');
+}
+
+.n13 {
+  background-image: url('https://cdn.1001.tl/images/artworks/sources/f/5/1/a/161228-artwork-sunburn-festival-5864202ac2737-Medium.jpg');
+
+}
+
+.n14 {
+  background-image: url('https://bfsi.eletsonline.com/wp-content/uploads/2016/03/LIC-logo.jpg');
+}
+
+.n15 {
+  background-image: url('https://3.imimg.com/data3/UA/KE/MY-15755981/radio-mirchi-98-3-fm-promotion-services-250x250.jpg');
+
+}
+
+.n16 {
+  background-image: url('https://www.storiafoods.com/img/Storia-logo.png');
+}
+
+.n17 {
+  background-image: url('https://lh5.googleusercontent.com/proxy/f3QANrYsfBe5ZtUnoA75DVZHRUt5soKutXlUGqAOUTOnoJesgMSxergx59V7xGXK8sDWeMM_xfql4_9hwGSuhFP3XtIIcSJvBAXPFGF8yd_2pYnMDWw');
+}
+
+.n18 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4tDM7zk8FCQPbXyBoov1A8XaViuMxbAo8mqn6rEmf6wqlk4Bg');
+}
+
+.n19 {
+  background-image: url('https://media-exp1.licdn.com/dms/image/C510BAQGNTEiq2QpNog/company-logo_200_200/0?e=2159024400&v=beta&t=1P24a3hXMQaXG7kN1v7r-3z0D8gP6zrRZkkj-o2O0N0');
+}
+
+.n20 {
+  background-image: url('https://lh3.googleusercontent.com/vEogjo0oQiOI7ZSRXRCLmBuTTnYsYSYynx5No7EPWh0UQ6LBlZm1dp2oYfDDzFjrNg=s180');
+}
+
+.n21 {
+  background-image: url('https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/am6qfpigmcg5uyw3cp7q');
+}
+
+.n22 {
+  background-image: url('https://image4.owler.com/logo/smaaash_owler_20171127_024303_original.png');
+}
+
+.n23 {
+  background-image: url('https://image4.owler.com/logo/smaaash_owler_20171127_024303_original.png');
+}
+
+.n24 {
+  background-image: url('https://pbs.twimg.com/profile_images/708548095840231425/MLLl-S9__400x400.jpg');
+}
+
+.n25 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/Snowcem_Paints_Logo_file.png');
+}
+
+.n26 {
+  background-image: url('https://www.kotak.com/content/dam/Kotak/kotak-bank-logo.jpg');
+}
+
+.n27 {
+  background-image: url('../images/spons/brew-house.png');
+}
+
+.n28 {
+  background-image: url('../images/spons/modArt-International.png');
+}
+
+.n29 {
+  background-image: url('../images/spons/dominoz.png');
+}
+
+.a53 {
+  background-image: url('https://dhoom.filmipop.com/media//theatrelogo/2018/Jun/1528176172-gold.jpg');
+}
+
+.a5 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUk2qm32YF0jrcM6-gKe8Sy8peUBCVDwGCXqwbNQiI0sEG6jp9&s');
+}
 
 
 
-  .a59{
-    background-image: url('https://www.furtadosonline.com/assets/web/images/staticpage/about.jpg');
-  }
-=
-  /* .a6{
+.a59 {
+  background-image: url('https://www.furtadosonline.com/assets/web/images/staticpage/about.jpg');
+}
+
+
+/* .a6{
     background-image: url('https://pbs.twimg.com/profile_images/838973227296661504/Rvw8TZ2x_400x400.jpg');
   } */
 
-  .a5{
-    background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0004/1874/brand.gif?itok=CikR_1FG');
-  }
+.a5 {
+  background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0004/1874/brand.gif?itok=CikR_1FG');
+}
 
-  .a54{
-    background-image: url('https://media.licdn.com/dms/image/C510BAQFwgJTkwW0Ong/company-logo_200_200/0?e=2159024400&v=beta&t=xmwZGjEPcLk37vkyRcr7gco5xFkc2-96pyso7Tteuu0');
-  }
+.a54 {
+  background-image: url('https://media.licdn.com/dms/image/C510BAQFwgJTkwW0Ong/company-logo_200_200/0?e=2159024400&v=beta&t=xmwZGjEPcLk37vkyRcr7gco5xFkc2-96pyso7Tteuu0');
+}
 
 
-  .a15{
-    background-image: url('https://in.bmscdn.com/in/common/facebook-og-bmslogo.jpg');
-  }
+.a15 {
+  background-image: url('https://in.bmscdn.com/in/common/facebook-og-bmslogo.jpg');
+}
 
-  .a17{
-    background-image: url(' http://cf.juggle-images.com/matte/white/280x280/audi-2-logo-primary.jpg');
-  }
+.a17 {
+  background-image: url(' http://cf.juggle-images.com/matte/white/280x280/audi-2-logo-primary.jpg');
+}
 
-  .a10{
-    background-image: url('https://www.onspon.com/brandimages/ATKT.in.jpg');
-  }
+.a10 {
+  background-image: url('https://www.onspon.com/brandimages/ATKT.in.jpg');
+}
 
-  .a13{
-    background-image: url('https://www.vitalstrategies.org/wp-content/uploads/2018/11/timesOfIndia-logo-200x200-1.png');
-  }
+.a13 {
+  background-image: url('https://www.vitalstrategies.org/wp-content/uploads/2018/11/timesOfIndia-logo-200x200-1.png');
+}
 
-  .a16{
-    background-image: url('https://kavlekarsneocollection.com/wp-content/uploads/2017/11/killer.png');
-  }
+.a16 {
+  background-image: url('https://kavlekarsneocollection.com/wp-content/uploads/2017/11/killer.png');
+}
 
-  .a35{
-    background-image: url('https://www.logolynx.com/images/logolynx/da/dac868183f4606e6431a34ec59ad0dde.jpeg');
-  }
+.a35 {
+  background-image: url('https://www.logolynx.com/images/logolynx/da/dac868183f4606e6431a34ec59ad0dde.jpeg');
+}
 
-  .a22{
-    background-image: url('http://goldenbricks.in/aipljoycentral/wp-content/uploads/2018/09/Inox-logo.jpg');
-  }
+.a22 {
+  background-image: url('http://goldenbricks.in/aipljoycentral/wp-content/uploads/2018/09/Inox-logo.jpg');
+}
 
-  .a42{
-    background-image: url('http://itzcash.com/wp-content/uploads/2013/03/Logo_394x119.jpg');
-  }
+.a42 {
+  background-image: url('http://itzcash.com/wp-content/uploads/2013/03/Logo_394x119.jpg');
+}
 
-  .a30{
-    background-image: url('https://bfsi.eletsonline.com/wp-content/uploads/2016/03/LIC-logo.jpg');
-  }
+.a30 {
+  background-image: url('https://bfsi.eletsonline.com/wp-content/uploads/2016/03/LIC-logo.jpg');
+}
 
-  .a23{
-    background-image: url('http://cdn-radiotime-logos.tunein.com/s197526g.png');
-  }
+.a23 {
+  background-image: url('http://cdn-radiotime-logos.tunein.com/s197526g.png');
+}
 
-  .a18{
-    background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0024/9281/brand.gif?itok=js4PshKp');
-  }
+.a18 {
+  background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0024/9281/brand.gif?itok=js4PshKp');
+}
 
-  .a20{
-    background-image: url('https://i.pinimg.com/280x280_RS/d3/6d/a8/d36da86d472120d7a98b40c53940dc8e.jpg  ');
-  }
+.a20 {
+  background-image: url('https://i.pinimg.com/280x280_RS/d3/6d/a8/d36da86d472120d7a98b40c53940dc8e.jpg  ');
+}
 
-  .a28{
-    background-image: url('https://i.ytimg.com/vi/U9b4SFcBk_0/hqdefault.jpg');
-  }
+.a28 {
+  background-image: url('https://i.ytimg.com/vi/U9b4SFcBk_0/hqdefault.jpg');
+}
 
-  .a27{
-    background-image: url('http://www.socialsamosa.com/wp-content/uploads/2012/11/smokin-Joes.jpg');
-  }
+.a27 {
+  background-image: url('http://www.socialsamosa.com/wp-content/uploads/2012/11/smokin-Joes.jpg');
+}
 
-  .a12{
-    background-image: url(' https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2018/12/04/jio.jpg?itok=LxTQuaU6');
-  }
+.a12 {
+  background-image: url(' https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2018/12/04/jio.jpg?itok=LxTQuaU6');
+}
 
-  .a9{
-    background-image: url('https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2018/06/05/mtv.jpg?itok=VSxH6B_y');
-  }
+.a9 {
+  background-image: url('https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2018/06/05/mtv.jpg?itok=VSxH6B_y');
+}
 
-  .a43{
-    background-image: url('https://www.ausleisure.com.au/images/ausleisure/files/_news-main/MERLIN_ents.png');
-  }
+.a43 {
+  background-image: url('https://www.ausleisure.com.au/images/ausleisure/files/_news-main/MERLIN_ents.png');
+}
 
 
-  .a25{
-    background-image: url('https://i.pinimg.com/originals/81/4d/03/814d03951a365f8bc6a522b94b9a5a24.jpg');
-  }
+.a25 {
+  background-image: url('https://i.pinimg.com/originals/81/4d/03/814d03951a365f8bc6a522b94b9a5a24.jpg');
+}
 
-  .a19{
-    background-image: url('https://scontent-sjc3-1.cdninstagram.com/vp/6c9c3013057c8cba48c696ec84ac0608/5E309400/t51.2885-19/s320x320/50717712_618515518568421_1334536726453944320_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com');
-  }
+.a19 {
+  background-image: url('https://scontent-sjc3-1.cdninstagram.com/vp/6c9c3013057c8cba48c696ec84ac0608/5E309400/t51.2885-19/s320x320/50717712_618515518568421_1334536726453944320_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com');
+}
 
-  .a48{
-    background-image: url('https://cdn.xplace.com/companyLogo/o/v/ovqvkx.png');
-  }
+.a48 {
+  background-image: url('https://cdn.xplace.com/companyLogo/o/v/ovqvkx.png');
+}
 
-  .a8{
-    background-image: url('http://www.basicseduventures.com/blog/wp-content/uploads/2018/01/ZOeEBwVt.png');
-  }
+.a8 {
+  background-image: url('http://www.basicseduventures.com/blog/wp-content/uploads/2018/01/ZOeEBwVt.png');
+}
 
-  .a50{
-    background-image: url('https://www.hetgroenebos.nl/wp-content/uploads/logo-recron-verticaal_fc.jpg');
-  }
+.a50 {
+  background-image: url('https://www.hetgroenebos.nl/wp-content/uploads/logo-recron-verticaal_fc.jpg');
+}
 
-  .a21{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZNznLW0o1RxsWOTHk1Eux79BnrpqeYjs5d85ZYVSW5-yOL0J&s');
-  }
+.a21 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZNznLW0o1RxsWOTHk1Eux79BnrpqeYjs5d85ZYVSW5-yOL0J&s');
+}
 
-  .a41{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/NEW_GOLI_VADAPAV_LOGO.jpg');
-  }
+.a41 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/NEW_GOLI_VADAPAV_LOGO.jpg');
+}
 
-  .a26{
-    background-image: url('https://m.media-amazon.com/images/S/aplus-media/sota/1800a798-92bb-434c-b35e-8e3ff559fc13._CR63,0,350,350_PT0_SX300__.png');
-  }
+.a26 {
+  background-image: url('https://m.media-amazon.com/images/S/aplus-media/sota/1800a798-92bb-434c-b35e-8e3ff559fc13._CR63,0,350,350_PT0_SX300__.png');
+}
 
-  .a33{
-    background-image: url('https://www.justgotochef.com/img/1543582885-Cocojal-Natural%20Tender%20Coconut%20Water-Logo.jpg');
-  }
+.a33 {
+  background-image: url('https://www.justgotochef.com/img/1543582885-Cocojal-Natural%20Tender%20Coconut%20Water-Logo.jpg');
+}
 
-  .a34{
-    background-image: url('https://imagex.kartrocket.com/image_byasalajihealthtech/data/Baidyanath-Vasantatilak-RasSMY-5-Tab.jpeg?imgeng=/w_600/h_500');
-  }
+.a34 {
+  background-image: url('https://imagex.kartrocket.com/image_byasalajihealthtech/data/Baidyanath-Vasantatilak-RasSMY-5-Tab.jpeg?imgeng=/w_600/h_500');
+}
 
-  .a11{
-    background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0023/2324/brand.gif?itok=T8yLiBFv');
-  }
+.a11 {
+  background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0023/2324/brand.gif?itok=T8yLiBFv');
+}
 
-  .a36{
-    background-image: url('https://www.pngkey.com/png/detail/272-2722191_vh1-get-with-it-logo-transp-vh1-logo.png');
-  }
+.a36 {
+  background-image: url('https://www.pngkey.com/png/detail/272-2722191_vh1-get-with-it-logo-transp-vh1-logo.png');
+}
 
-  .a37{
-    background-image: url('https://pbs.twimg.com/profile_images/641943594102710273/wBZ9QS_w.png');
-  }
+.a37 {
+  background-image: url('https://pbs.twimg.com/profile_images/641943594102710273/wBZ9QS_w.png');
+}
 
-  .a38{
-    background-image: url('https://www.jagranimages.com/images/18_03_2015-samna18.jpg');
-  }
+.a38 {
+  background-image: url('https://www.jagranimages.com/images/18_03_2015-samna18.jpg');
+}
 
-  .a39{
-    background-image: url('https://pbs.twimg.com/profile_images/718012573480779776/gjj-H3IT_400x400.jpg');
-  }
+.a39 {
+  background-image: url('https://pbs.twimg.com/profile_images/718012573480779776/gjj-H3IT_400x400.jpg');
+}
 
-  .a40{
-    background-image: url('https://lh3.googleusercontent.com/Xsbr8WkY7muCXf0dbYdIAsnnziolNk-HZw3BmVYOAMdxXN031LBNBywpEl79ubS6Krc=s180');
-  }
+.a40 {
+  background-image: url('https://lh3.googleusercontent.com/Xsbr8WkY7muCXf0dbYdIAsnnziolNk-HZw3BmVYOAMdxXN031LBNBywpEl79ubS6Krc=s180');
+}
 
-  .a31{
-    background-image: url('https://www.thehindu.com/static/theme/default/base/img/og-image.jpg');
-  }
+.a31 {
+  background-image: url('https://www.thehindu.com/static/theme/default/base/img/og-image.jpg');
+}
 
-  .a6{
-    background-image: url('https://cdn.1001.tl/images/artworks/sources/f/5/1/a/161228-artwork-sunburn-festival-5864202ac2737-Medium.jpg');
-  }
+.a6 {
+  background-image: url('https://cdn.1001.tl/images/artworks/sources/f/5/1/a/161228-artwork-sunburn-festival-5864202ac2737-Medium.jpg');
+}
 
-  .a24{
-    background-image: url('http://seekvectorlogo.com/wp-content/uploads/2018/05/ola-cabs-vector-logo-small.png');
-  }
+.a24 {
+  background-image: url('http://seekvectorlogo.com/wp-content/uploads/2018/05/ola-cabs-vector-logo-small.png');
+}
 
-  .a44{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5KL32j9ZYgcobxY_Qv-MLlt03EAPSHpmlMg3goKhnhB72berN&s');
-  }
+.a44 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5KL32j9ZYgcobxY_Qv-MLlt03EAPSHpmlMg3goKhnhB72berN&s');
+}
 
-  .a45{
-    background-image: url('https://yt3.ggpht.com/a/AGF-l7-fx1NaYqBjUSErLynli_4zZyaFKp3NCaqQWQ=s900-c-k-c0xffffffff-no-rj-mo');
-  }
+.a45 {
+  background-image: url('https://yt3.ggpht.com/a/AGF-l7-fx1NaYqBjUSErLynli_4zZyaFKp3NCaqQWQ=s900-c-k-c0xffffffff-no-rj-mo');
+}
 
-  .a46{
-    background-image: url('https://pngimage.net/wp-content/uploads/2018/06/olivia-png.png');
-  }
+.a46 {
+  background-image: url('https://pngimage.net/wp-content/uploads/2018/06/olivia-png.png');
+}
 
-  .a47{
-    background-image: url('https://i.pinimg.com/originals/73/99/42/739942f6e07f93d67f9dd1a030573e04.jpg');
-  }
+.a47 {
+  background-image: url('https://i.pinimg.com/originals/73/99/42/739942f6e07f93d67f9dd1a030573e04.jpg');
+}
 
-  .a7{
-    background-image: url('https://www.logotaglines.com/wp-content/uploads/2016/08/union-bank-of-india.png');
-  }
+.a7 {
+  background-image: url('https://www.logotaglines.com/wp-content/uploads/2016/08/union-bank-of-india.png');
+}
 
-  .a49{
-    background-image: url('http://www.fruitfocus.co.uk/__media/libraries/exhibitors/UPL_OpenAg_logo_640x640.jpg');
-  }
+.a49 {
+  background-image: url('http://www.fruitfocus.co.uk/__media/libraries/exhibitors/UPL_OpenAg_logo_640x640.jpg');
+}
 
-  .a29{
-    background-image: url('https://pbs.twimg.com/profile_images/755466632408039424/4cTNXkQe_400x400.jpg');
-  }
+.a29 {
+  background-image: url('https://pbs.twimg.com/profile_images/755466632408039424/4cTNXkQe_400x400.jpg');
+}
 
-  .a51{
-    background-image: url('https://content3.jdmagicbox.com/comp/thane/u4/022pxx22.xx22.140329143527.p1u4/catalogue/maharashtra-times-naupada-thane-west-thane-newspaper-2enpima-250.jpg');
-  }
+.a51 {
+  background-image: url('https://content3.jdmagicbox.com/comp/thane/u4/022pxx22.xx22.140329143527.p1u4/catalogue/maharashtra-times-naupada-thane-west-thane-newspaper-2enpima-250.jpg');
+}
 
-  .a52{
-    background-image: url('https://pbs.twimg.com/profile_images/2724836720/9712e1d2062e173457e9ae67ff8f3cb0_400x400.png');
-  }
+.a52 {
+  background-image: url('https://pbs.twimg.com/profile_images/2724836720/9712e1d2062e173457e9ae67ff8f3cb0_400x400.png');
+}
 
 
 
-  .a14{
-    background-image: url('https://www.eisenwerk15-2.de/wp-content/uploads/2018/12/sennheiser-logo.png');
-  }
+.a14 {
+  background-image: url('https://www.eisenwerk15-2.de/wp-content/uploads/2018/12/sennheiser-logo.png');
+}
 
-  .a55{
-    background-image: url('https://i.ebayimg.com/images/g/aBcAAOSw1Gtcjati/s-l300.jpg');
-  }
+.a55 {
+  background-image: url('https://i.ebayimg.com/images/g/aBcAAOSw1Gtcjati/s-l300.jpg');
+}
 
-  .a56{
-    background-image: url('https://pbs.twimg.com/profile_images/510049021163864064/25zKU4Nh_400x400.jpeg');
-  }
+.a56 {
+  background-image: url('https://pbs.twimg.com/profile_images/510049021163864064/25zKU4Nh_400x400.jpeg');
+}
 
-  .a57{
-    background-image: url('https://sutrahr.com/wp-content/uploads/2016/12/wittyfeed-top-indian-startup-2017.jpg');
-  }
+.a57 {
+  background-image: url('https://sutrahr.com/wp-content/uploads/2016/12/wittyfeed-top-indian-startup-2017.jpg');
+}
 
-  .a4{
-    background-image: url('https://pbs.twimg.com/profile_images/1145425196079149056/yzuDpuq1_400x400.jpg');
-  }
+.a4 {
+  background-image: url('https://pbs.twimg.com/profile_images/1145425196079149056/yzuDpuq1_400x400.jpg');
+}
 
-  .a58{
-    background-image: url('https://img4.nbstatic.in/tr:w-500/5bcd5b4952faff000d7d6c39.jpg');
-  }
+.a58 {
+  background-image: url('https://img4.nbstatic.in/tr:w-500/5bcd5b4952faff000d7d6c39.jpg');
+}
 
-  .a32{
-    background-image: url('https://3.imimg.com/data3/UA/KE/MY-15755981/radio-mirchi-98-3-fm-promotion-services-250x250.jpg');
-  }
+.a32 {
+  background-image: url('https://3.imimg.com/data3/UA/KE/MY-15755981/radio-mirchi-98-3-fm-promotion-services-250x250.jpg');
+}
 
-  .a1{
-    background-image: url('https://www.capitalpride.org/wp-content/uploads/Monster_Energy_logo_square-1.png');
-  }
+.a1 {
+  background-image: url('https://www.capitalpride.org/wp-content/uploads/Monster_Energy_logo_square-1.png');
+}
 
-  .a62{
-    background-image: url('https://carlisletheacarlisletheatre.org/images/tinder-logo-square-7.jpg');
-  }
+.a62 {
+  background-image: url('https://carlisletheacarlisletheatre.org/images/tinder-logo-square-7.jpg');
+}
 
-  .a2{
-    background-image: url('https://i1.wp.com/schoeman.nl/wp-content/uploads/2017/01/Red-Bull.jpg?resize=200%2C200&ssl=1');
-  }
+.a2 {
+  background-image: url('https://i1.wp.com/schoeman.nl/wp-content/uploads/2017/01/Red-Bull.jpg?resize=200%2C200&ssl=1');
+}
 
-  .a3{
-    background-image: url('https://www.debaird.net/.a/6a00d8341c007953ef022ad382b6f0200d-320wi');
-  }
+.a3 {
+  background-image: url('https://www.debaird.net/.a/6a00d8341c007953ef022ad382b6f0200d-320wi');
+}
 
-  .a65{
-    background-image: url('');
-  }
+.a65 {
+  background-image: url('');
+}
 
-  .a66{
-    background-image: url('');
-  }
+.a66 {
+  background-image: url('');
+}
 
-  .a67{
-    background-image: url('');
-  }
+.a67 {
+  background-image: url('');
+}
 
-  .a68{
-    background-image: url('');
-  }
+.a68 {
+  background-image: url('');
+}
 
-  .a69{
-    background-image: url('');
-  }
+.a69 {
+  background-image: url('');
+}
 
-  .a70{
-    background-image: url('');
-  }
+.a70 {
+  background-image: url('');
+}
 
 
 
 
-  /* .a1{
+/* .a1{
     background-image: url('');
   } */
 
 
 
 
-  .inner-layer{
-    position: absolute;
+.inner-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  visibility: hidden;
+  border-radius: 100%;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img-div:hover {
+  /* border-radius: 100%; */
+  width: 25%;
+  border-radius: 10px;
+}
+
+.content-div {
+  margin: 10px 0 10px 0;
+}
+
+.name-title {
+  font-size: 25px;
+}
+
+.name {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  transition: 1s;
+  visibility: hidden;
+}
+
+.img-div:hover .inner-layer {
+  border-radius: 10px;
+  visibility: visible;
+}
+
+.img-div:hover .inner-layer .name {
+  /* border-radius: 10px; */
+
+  animation: nameAnimation 1s forwards;
+  visibility: visible;
+}
+
+
+#hamburger {
+  top: 40px;
+  right: 55px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1000;
+  position: fixed;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appearImgGrid {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes nameAnimation {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+
+  30%,
+  70% {
+    color: #fff;
+    filter: blur(0.5px);
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 5px #ff0, 0 0 50px #ff0;
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 20px #fff, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #e60073; */
+  }
+
+  0%,
+  100% {
+    color: #fff;
+    filter: blur(0px);
+    /* text-shadow: 0 0 20px #fff, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 15px #ff0, 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #f9a602; */
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  #hamburger {
+    right: 20px;
+  }
+
+  .title {
+    margin-top: 20px;
+    /* margin-left: 40px; */
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+  }
+
+  .sub-title {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+
+  .text-div {
+    margin: 0;
+  }
+
+  .img-grid {
+    opacity: 0;
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    visibility: hidden;
-    border-radius: 100%;
-    transition: 0.5s;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2% 10%;
+    margin: 0;
+    animation: appearImgGrid 2s 2s forwards;
   }
 
-  .img-div:hover{
-    /* border-radius: 100%; */
-    width: 25%;
-    border-radius: 10px;
-  }
-
-  .content-div{
-    margin: 10px 0 10px 0 ;
-  }
-
-  .name-title{
-    font-size: 25px;
-  }
-
-  .name{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 5%;
-    bottom:5%;
-    transition: 1s;
-    visibility: hidden;
-  }
-
-  .img-div:hover .inner-layer{
-    border-radius: 10px;
-    visibility: visible;
-  }
-
-  .img-div:hover .inner-layer .name{
-    /* border-radius: 10px; */
-
-    animation: nameAnimation 1s forwards;
-    visibility: visible;
-  }
-
-
-  #hamburger{
-    top:40px;right:55px; color : white; font-size:30px;cursor:pointer; z-index:1000; position:fixed;
-  }
-
-  @keyframes appear {
-    from {
-      opacity: 0;
-    }
-    to{
-      opacity: 1;
-    }
-  }
-
-  @keyframes appearImgGrid {
-    from {
-      opacity: 0;
-    }
-    to{
-      opacity: 1;
-    }
-  }
-
-  @keyframes nameAnimation {
-    from{
-      transform: translateY(-20px);
-      opacity: 0;
-    }
-    to{
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-  @keyframes glow {
-    30%,70%{
-      color: #fff;
-      filter: blur(0.5px);
-      text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 5px #ff0, 0 0 50px #ff0;
-       /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 20px #fff, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #e60073; */
-    }
-    0%, 100%{
-      color: #fff;
-      filter: blur(0px);
-      /* text-shadow: 0 0 20px #fff, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 15px #ff0, 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #f9a602; */
-    }
-
+  .card-div {
+    /* margin: 0 0 15px 0; */
+    padding: 0 10px;
   }
 
 
 
-
-  @media screen and (max-width: 720px) {
-    #hamburger{
-      right: 20px;
-    }
-    .title{
-      margin-top: 20px;
-      /* margin-left: 40px; */
-      text-align: center;
-      margin-right: 30px;
-      margin-bottom: 30px;
-      font-size: 60px;
-    }
-
-    .sub-title{
-      margin-top: 20px;
-      text-align: center;
-      margin-right: 30px;
-      margin-bottom: 30px;
-      font-size: 40px;
-    }
-
-    .text-div{
-      margin: 0;
-    }
-
-    .img-grid{
-      opacity: 0;
-      width: 100%;
-      padding: 2% 10%;
-      margin: 0;
-      animation: appearImgGrid 2s 2s forwards;
-    }
-
-    .card-div{
-      /* margin: 0 0 15px 0; */
-      padding: 0 10px;
-    }
-
-
-
-    .image-div{
-      max-width: 15vh;
-      min-width: 15vh;
-      height: 15vh;
-    }
-
+  .image-div {
+    max-width: 15vh;
+    min-width: 15vh;
+    height: 15vh;
   }
+
+}
